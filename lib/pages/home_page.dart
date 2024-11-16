@@ -13,8 +13,9 @@ class _HomePageState extends State<HomePage> {
   final FireStoreServices fireStoreServices = FireStoreServices();
 
   List toDoList = [
-    ['Learn Flutter', false],
-    ['Drink Coffie', false],
+    ['Tap + to Add New Tasks', false],
+    ['Check The Box Once it Completed', false],
+    ['Slide Right To Left To delete', false],
   ];
 
   final _addController = TextEditingController();
